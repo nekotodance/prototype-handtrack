@@ -21,7 +21,7 @@ Specify the video size of the webcam.
 Specify 1920,1080 for FullHD, 1280,720 for HD, etc. according to the webcam to be used.  
 - WEBCUM_FPS
 Specify the fps of the webcam.  
-Specify 0fps, 30fps, 24fps, etc. according to the webcam used.  
+Specify 60fps, 30fps, 24fps, etc. according to the webcam used.  
 
 #### Execution
     py prototype-handtrack.py
