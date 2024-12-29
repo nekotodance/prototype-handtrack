@@ -11,17 +11,17 @@ open-cvを利用してWEBカメラの映像からハンドトラックを行う�
 
 ## 利用方法
 #### 準備
-ソースの以下の部分を利用するWebカメラにあわせて修正してください  
+ソースの以下の部分を利用するWebカメラにあわせて修正してください。  
 
-- WEBCUM_DEVICE_ID
+- WEBCUM_DEVICE_ID  
 WEBカメラのデバイスIDを指定。  
 仮想カメラなどにも割り振られるので、0から順番に試してください。  
-- WEBCUM_WIDTH, WEBCUM_HEIGHT
+- WEBCUM_WIDTH, WEBCUM_HEIGHT  
 WEBカメラの映像サイズを指定。  
 FullHDなら1920,1080、HDなら1280,720など利用するWebカメラに合わせて指定してください。  
-- WEBCUM_FPS
+- WEBCUM_FPS  
 WEBカメラのfpsを指定。  
-60fps、30fps、24fpsなど利用するWebカメラに合わせて指定してください。  
+60、30、24など利用するWebカメラに合わせて指定してください。  
 
 #### 実行
     py prototype-handtrack.py
