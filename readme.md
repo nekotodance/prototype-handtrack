@@ -13,15 +13,15 @@ Hold thumb and index finger to draw a line, tap thumb and pinky finger to clear 
 #### Preparation
 Modify the following parts of the source code to match the webcam you are using.  
 
-- WEBCUM_DEVICE_ID
+- WEBCUM_DEVICE_ID  
 Specify the device ID of the webcam.  
 Try starting from 0, as it is assigned to virtual cameras, etc.  
-- WEBCUM_WIDTH, WEBCUM_HEIGHT
+- WEBCUM_WIDTH, WEBCUM_HEIGHT  
 Specify the video size of the webcam.  
 Specify 1920,1080 for FullHD, 1280,720 for HD, etc. according to the webcam to be used.  
-- WEBCUM_FPS
+- WEBCUM_FPS  
 Specify the fps of the webcam.  
-Specify 60fps, 30fps, 24fps, etc. according to the webcam used.  
+Specify 60, 30, 24, etc. according to the webcam used.  
 
 #### Execution
     py prototype-handtrack.py
