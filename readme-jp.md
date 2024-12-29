@@ -21,7 +21,7 @@ WEBカメラの映像サイズを指定。
 FullHDなら1920,1080、HDなら1280,720など利用するWebカメラに合わせて指定してください。  
 - WEBCUM_FPS
 WEBカメラのfpsを指定。  
-0fps、30fps、24fpsなど利用するWebカメラに合わせて指定してください。  
+60fps、30fps、24fpsなど利用するWebカメラに合わせて指定してください。  
 
 #### 実行
     py prototype-handtrack.py
