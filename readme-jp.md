@@ -4,7 +4,7 @@
 open-cvを利用してWEBカメラの映像からハンドトラックを行うプロトタイプソフトです。  
 親指と人差し指のホールドでラインを描画、親指と小指のタップでラインをクリアします。  
 
-![prototype-handtrack](docs/prototype-handtrack.gif)
+![prototype-handtrack](prototype-handtrack.gif)
 
 ## 必要なライブラリ
     pip install opencv-python mediapipe
