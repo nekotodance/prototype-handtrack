@@ -4,7 +4,7 @@
 This is a prototype software that performs handtracking from webcam video using open-cv.  
 Hold thumb and index finger to draw a line, tap thumb and pinky finger to clear the line.  
 
-! [prototype-handtrack](docs/prototype-handtrack.gif)
+![prototype-handtrack](prototype-handtrack.gif)
 
 ## Required libraries
     pip install opencv-python mediapipe
